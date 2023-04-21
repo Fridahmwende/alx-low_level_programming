@@ -1,4 +1,3 @@
-(15 sloc)  429 Bytes
 #include <stdio.h>
 /**
  * main - Prints sized of characters
