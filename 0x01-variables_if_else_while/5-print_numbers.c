@@ -1,10 +1,21 @@
-{
-int p, q;
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (success/correct)
+ */
+int main(void)
 
-for (p = 0; p <= 98; p++)
 {
+int i;
 
-for (q = p + 1; q <= 99; q++)
+for (i = 0 ; i < 10; i++)
 {
-putchar((p / 10) + '0');
-putchar((p % 10) + '0');
+printf("%i", i);
+}
+
+printf("\n");
+
+return (0);
+
+}
