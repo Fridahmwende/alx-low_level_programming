@@ -22,7 +22,3 @@ char *_strcpy(char *dest, char *src)
 	dest[l] = '\0';
 	return (dest);
 }
- 37 changes: 37 additions & 0 deletions37  
-0x05-pointers_arrays_strings/README.md
-@@ -0,0 +1,37 @@
-C - Poi
