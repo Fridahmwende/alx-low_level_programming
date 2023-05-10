@@ -11,4 +11,3 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int is_palindrome(char *s);
 #endif
-0 comments on commit 42f05ed
