@@ -9,10 +9,10 @@
 #include <string.h>
 
 
-char *_strchr(char *s, char c)
+char *_strncat(char *dest, char *src, int n)
 
 {
 
-    return strchr(s, c);
+    return strncat(dest, src, n);
 
 }

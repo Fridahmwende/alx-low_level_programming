@@ -9,10 +9,10 @@
 #include <string.h>
 
 
-char *_strchr(char *s, char c)
+int _putchar(char c)
 
 {
 
-    return strchr(s, c);
+    return putchar(c);
 
 }

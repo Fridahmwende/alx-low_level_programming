@@ -9,10 +9,10 @@
 #include <string.h>
 
 
-char *_strchr(char *s, char c)
+int _strlen(char *s)
 
 {
 
-    return strchr(s, c);
+    return strlen(s);
 
 }
